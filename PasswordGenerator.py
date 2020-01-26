@@ -54,4 +54,5 @@ print(Numbers,"\n")
 Password = Letters + SpecialCharacters + Numbers
 print(Password)
 shuffle(Password)
-print(Password)
+PasswordString = ''.join(Password)
+print(PasswordString)
